@@ -28,7 +28,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `CHN50_1m.csv` (146,976 rows, `2025-12-26` → `2026-06-26`). **Full archive on [ork.ad](https://ork.ad/)** — **2,529,520** `1m` rows (~150.91 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2017-07-17` → `2026-06-26`.
+> **Sample on GitHub** · `CHN50_1m.csv` (147,469 rows, `2026-01-05` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **2,529,520** `1m` rows (~150.91 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2017-07-17` → `2026-06-26`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/chn50-1m-ohlcv-index-hist
 |---|--:|---|
 | Instrument | China 50 Index · Stock index | China 50 Index · Stock index |
 | Timeframes | `1m` only (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1m rows | 146,976 | **2,529,520** |
-| Size | 8.42 MB | ~150.91 MB |
-| Period | `2025-12-26` → `2026-06-26` | `2017-07-17` → `2026-06-26` |
+| 1m rows | 147,469 | **2,529,520** |
+| Size | 9.02 MB | ~150.91 MB |
+| Period | `2026-01-05` → `2026-07-02` | `2017-07-17` → `2026-06-26` |
 | File | `CHN50_1m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`CHN50_1m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-12-26T20:39:00Z | 15442.71 | 15442.71 | 15442.7 | 15442.7 | 1 |
-| 2025-12-26T20:42:00Z | 15442.7 | 15442.71 | 15442.7 | 15442.71 | 1 |
-| 2025-12-26T20:43:00Z | 15442.71 | 15442.71 | 15441.7 | 15441.7 | 4 |
-| 2025-12-29T01:01:00Z | 15441.7 | 15441.7 | 15429.01 | 15429.01 | 29 |
-| 2025-12-29T01:02:00Z | 15429.01 | 15433.0 | 15428.51 | 15432.0 | 28 |
+| 2026-01-05T01:01:00Z | 15471.085 | 15471.085 | 15451.275 | 15451.785 | 71 |
+| 2026-01-05T01:02:00Z | 15451.785 | 15454.765 | 15450.765 | 15451.785 | 53 |
+| 2026-01-05T01:03:00Z | 15451.785 | 15452.285 | 15446.774 | 15446.774 | 30 |
+| 2026-01-05T01:04:00Z | 15446.774 | 15449.774 | 15445.784 | 15446.774 | 22 |
+| 2026-01-05T01:05:00Z | 15446.774 | 15450.775 | 15446.764 | 15448.784 | 18 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-06-26T20:30:00Z | 15411.57 | 15411.58 | 15411.57 | 15411.57 | 2.00 |
-| 2026-06-26T20:31:00Z | 15411.57 | 15411.57 | 15409.56 | 15409.56 | 3.00 |
-| 2026-06-26T20:34:00Z | 15409.56 | 15409.56 | 15407.57 | 15407.57 | 1.00 |
-| 2026-06-26T20:35:00Z | 15407.57 | 15407.57 | 15406.57 | 15406.58 | 4.00 |
+| 2026-07-02T20:40:00Z | 14803.43 | 14803.43 | 14802.91 | 14802.91 | 2.00 |
+| 2026-07-02T20:41:00Z | 14802.91 | 14802.92 | 14802.91 | 14802.91 | 2.00 |
+| 2026-07-02T20:43:00Z | 14802.91 | 14802.93 | 14800.93 | 14801.43 | 5.00 |
+| 2026-07-02T20:44:00Z | 14801.43 | 14801.93 | 14801.43 | 14801.93 | 1.00 |
 
 ## Schema
 
@@ -150,4 +150,4 @@ The complete **CHN50** archive on **[ork.ad](https://ork.ad/)** includes **13 OH
 **[→ Get the full CHN50 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · CHN50 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-02 UTC*
+*GetData · CHN50 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-03 UTC*
