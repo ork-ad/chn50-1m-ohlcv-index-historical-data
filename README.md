@@ -1,10 +1,10 @@
 # CHN50 1m OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-2_534_110_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)]() [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-2_535_165_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full CHN50 dataset on ork.ad**](https://ork.ad/)
 
-**CHN50 1m OHLCV Stock index historical data** — ultra high-quality one-minute OHLCV for **China 50 Index**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**CHN50 1m OHLCV Stock index historical data** — ultra high-quality 1m OHLCV for **China 50**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,14 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 1-minute OHLCV** for **China 50 Index** (Stock index)
+- **Ultra high-quality 1m OHLCV** for **China 50** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1m` only) · **13 timeframes** on [ork.ad](https://ork.ad/) · **2,534,110** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`1m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **2,535,165** `1m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `CHN50_1m.csv` (147,469 rows, `2026-01-05` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **2,534,110** `1m` rows (~151.18 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2017-07-17` → `2026-07-02`.
+> **Sample on GitHub** · `CHN50_1m.csv` (148,524 rows, `2026-01-05` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **2,535,165** `1m` rows (~135.14 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2017-07-17` → `2026-07-03`.
 
 ## Download sample
 
@@ -42,17 +42,17 @@ Interactive chart & stats: **[https://ork-ad.github.io/chn50-1m-ohlcv-index-hist
 
 | | **Sample (this repo)** | **Full dataset ([ork.ad](https://ork.ad/))** |
 |---|--:|---|
-| Instrument | China 50 Index · Stock index | China 50 Index · Stock index |
-| Timeframes | `1m` only (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1m rows | 147,469 | **2,534,110** |
-| Size | 9.02 MB | ~151.18 MB |
-| Period | `2026-01-05` → `2026-07-02` | `2017-07-17` → `2026-07-02` |
+| Instrument | China 50 · Stock index | China 50 · Stock index |
+| Timeframes | `1m` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
+| 1m rows | 148,524 | **2,535,165** |
+| Size | 8.37 MB | ~135.14 MB |
+| Period | `2026-01-05` → `2026-07-03` | `2017-07-17` → `2026-07-03` |
 | File | `CHN50_1m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
 ## Timeframes on ork.ad
 
-This GitHub repository ships a **1-minute (`1m`) evaluation sample** only. On **[ork.ad](https://ork.ad/)**, each full asset archive is delivered as a ZIP with **13 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`1m` evaluation sample** only. On **[ork.ad](https://ork.ad/)**, each full asset archive is delivered as a ZIP with **13 gap-free OHLCV timeframes** (one CSV per timeframe):
 
 **1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **2H** · **4H** · **8H** · **12H** · **16H** · **1D** · **1W**
 
@@ -61,7 +61,7 @@ GitHub = `1m` sample · [ork.ad](https://ork.ad/) = all **13** timeframes above 
 ## Weekly updates
 
 - **[ork.ad](https://ork.ad/)** — Full datasets on ork.ad are updated every Sunday.
-- **GitHub (this repo)** — GitHub 1m samples are refreshed weekly (every Sunday), in sync with ork.ad.
+- **GitHub (this repo)** — GitHub samples are refreshed weekly (every Sunday), in sync with ork.ad.
 
 When a new `1m` sample is published on GitHub, the README, chart preview and CSV reflect the latest week of data.
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`CHN50_1m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-01-05T01:01:00Z | 15471.085 | 15471.085 | 15451.275 | 15451.785 | 71 |
-| 2026-01-05T01:02:00Z | 15451.785 | 15454.765 | 15450.765 | 15451.785 | 53 |
-| 2026-01-05T01:03:00Z | 15451.785 | 15452.285 | 15446.774 | 15446.774 | 30 |
-| 2026-01-05T01:04:00Z | 15446.774 | 15449.774 | 15445.784 | 15446.774 | 22 |
-| 2026-01-05T01:05:00Z | 15446.774 | 15450.775 | 15446.764 | 15448.784 | 18 |
+| 2026-01-05T01:01:00Z | 15472.33 | 15472.33 | 15452.52 | 15453.03 | 71 |
+| 2026-01-05T01:02:00Z | 15453.03 | 15456.01 | 15452.01 | 15453.03 | 53 |
+| 2026-01-05T01:03:00Z | 15453.03 | 15453.53 | 15448.01 | 15448.01 | 30 |
+| 2026-01-05T01:04:00Z | 15448.01 | 15451.01 | 15447.02 | 15448.01 | 22 |
+| 2026-01-05T01:05:00Z | 15448.01 | 15452.02 | 15448 | 15450.02 | 18 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T20:40:00Z | 14803.43 | 14803.43 | 14802.91 | 14802.91 | 2.00 |
-| 2026-07-02T20:41:00Z | 14802.91 | 14802.92 | 14802.91 | 14802.91 | 2.00 |
-| 2026-07-02T20:43:00Z | 14802.91 | 14802.93 | 14800.93 | 14801.43 | 5.00 |
-| 2026-07-02T20:44:00Z | 14801.43 | 14801.93 | 14801.43 | 14801.93 | 1.00 |
+| 2026-07-03T20:40:00Z | 14965.84 | 14966.34 | 14965.32 | 14966.34 | 59 |
+| 2026-07-03T20:41:00Z | 14966.34 | 14966.34 | 14965.32 | 14966.33 | 147 |
+| 2026-07-03T20:42:00Z | 14966.33 | 14966.34 | 14965.33 | 14966.33 | 22 |
+| 2026-07-03T20:43:00Z | 14966.33 | 14966.33 | 14966.33 | 14966.33 | 2 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **CHN50** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **2,534,110** rows at `1m`, plus all higher timeframes in the same ZIP.
+The complete **CHN50** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **2,535,165** rows at `1m`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full CHN50 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · CHN50 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-03 UTC*
+*GetData · CHN50 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-05 UTC*
